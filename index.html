@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>Comentario_3_corte</title>
+	<!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js" integrity="sha512-Lii3WMtgA0C0qmmkdCpsG0Gjr6M0ajRyQRQSbTF6BsrVh/nhZdHpVZ76iMIPvQwz1eoXC3DmAg9K51qT5/dEVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	
+		<div class="collapse" id="navbarToggleExternalContent">
+		  <div class="bg-dark p-4">
+		    <h5 class="text-white h4">Andres Felipe Bonilla Avila</h5>
+		    <div class="row">
+  					<div class="col" style="color: white;">
+  						<p>Edad: 19 Años</p>
+    					<p>Profesion: Estudiante</p>
+
+  					</div>
+  					<div class="col" style="color: white;">
+		    			<p>Programacion de Nuevas Tecnologias</p>
+		    			<p>Grupo: 3_2091_2022-2</p>
+		    			<p>Profesor: Juan Pablo Franco Rubio</p>
+		    									
+  					</div>
+  					<div class="col" style="color: white;">
+  						<p>Carrera: ingenieria Informatica</p>
+    					<p>Cuarto Semestre</p>
+  						<p>Universidad de la sabana</p>  
+  					</div>
+		    </div>
+		  </div>
+		</div>
+		<nav class="navbar navbar-dark bg-dark">
+		  <div class="container-fluid">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span><img src="images/A.icon.png" style="max-width: 3%; max-height: 3%;" align="left"></span>
+		    </button>
+		  </div>
+		</nav>
+		<div>
+			<br>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col" align="center">
+					<div class="card mb-3" style="max-width: 80%">
+					  <div class="row g-0">
+					    <div class="col-md-4" >
+					      <img src="images/doomsday clock.jpg" class="img-fluid rounded-start" alt="...">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body">
+					        <h5 class="card-title" align="left">¿Que es el reloj de el fin de el mundo o Doomsday Clock?</h5>
+					        <p class="card-text" align="left">El Reloj de el fin de el mundo, de el apocalipcis, de el juicio final o The Doomsday Clock en ingles es un reloj simbolico, creado y mantenido desde 1947
+					        	por el Bulletin of the Atomic Scientist(Boletin de Cientiicos Atomicos) de la universidad de chicago en estados unidos, El reloj se basa en la analogia de que la raza humana siempre esta a "a un minuto de la media noche" siendo esta hora la que representa la destruccion total y catastrfica de el mundo, originalmente el reloj fue creado para representar la amenaza
+					        de una guerra nuclear global pero con el paso de los años este reloj comenzo a incluir aspectos como el cambio climatico o el desarrollo de nuevas ciencias y tecnologias que pueden suponer alguna amenaza para el ser humano.</p>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col" align="right">
+				<div class="card" style="width: 36.5rem;height: 620px">
+				  <div class="card-body">
+				    <h5 class="card-title" align="left">Mi opinion acerca de el Doosday Cloock:</h5>
+				    <p class="card-text" align="left">El concepto de el reloj de el mundo a sido algo que he escuchado muchas veces a lo largo de los año, pero nunca tuve claro el verdadero significado de este
+				    ,Conocia que este "sistema" fue creado durante la guerra fria para representar la amenaza de una guerra nuclear y para mostrar el temor generalizado a las armas nucleares y un conflicto inminente, pero desconocia que incluso despues de la finalizacion de la guerra fria y el control actual de las armas nucleares este reloj seguia moviendose, En mi opinion acerca de esta metafora sobre un posible evento catastrofico generado por la raza humana, Es que la veo como una manera muy acertada de presentar el constante riesgo que corre la raza humana por su propia culpa y la muchas veces falta de conciensia o control en sus actos, muchas veces como seres humanos pensamos que las amenazas provienen de aquello que desconocemos de lo que esta mas alla de nosotrosm y por eso ignoramos que aveces las amenazas mas cercanas son justamente aquellas de las que somos prenamente concientes de su riesgo pero ya sea por arrogancia o avaricia decidimos ignorarlas, siento que el reloj de el fin de el mundo es un metafora que nos sirve a los humanos para recordar el peligro que supone la inventiva y el desarrollo incontrolado por parte de la raza humana puesto que aunque justamente una de los mayores dones de el ser humano es su aparente capacidad ilimitada para evolucionar, Esta esta sometida muchas veces por los deseos de poder,control o simplemente por
+					el orgullo humano en su deseo de mostrarse como algo superior a lo que es sin medir las posibles consecuencias de sus actos para los otros, para el mundo e incluso para si mismo.</p>
+				  </div>
+				</div>								
+			</div>
+			
+			<div class="col" align="left">
+				<div class="card" style="width: 36.5rem;height: 630px">
+				 	<div class="card-body">
+				   		<h5 class="card-title">Edades de aquellos que participaron en el formulario sobre el tema:</h5>
+				   		<p class="lead"> <canvas class="bg-white" id="pie"> </canvas> </p>
+				 	</div>
+				</div>								
+			</div>			 						
+		</div>
+		<div class="row">
+			<div class="row row-cols-1 row-cols-md-2 g-4">
+			  <div class="col" align="right">
+			    <div class="card" style="width: 35.5rem">
+			      <img src="images/Cloock.jpg" class="card-img-top" >
+			      <div class="card-body">
+			        <h5 class="card-title" align="left">Pregunta #1:</h5>
+			        <p class="card-text" align="left"> ¿Cual es su opinion con respecto al concepto de el Doomsday Clock o El reloj de el juicio final?</p>
+			        <div align="left">
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#P1">
+						  Ver Analisis
+						</button> 
+
+						<div class="modal fade" id="P1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="P1Label" aria-hidden="true">
+						  <div class="modal-dialog" style="max-width: 900px">
+						    <div class="modal-content" style="width: 900px">
+						      <div class="modal-header" style="width: 900px">
+						        <h1 class="modal-title fs-5" id="P1Label">Cual es su opinion con respecto al concepto de el Doomsday Clock o El reloj de el juicio final?</h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body" style="width: 900px">
+						        <p class="lead"> <canvas class="bg-white" id="Mi1Gr"> </canvas> </p>
+						        <p>N1:Lo considero una metodología eficiente y adecuada para mostrarnos que tan próximo puede estar un evento catastrófico</p>
+						        <p>N2:Lo veo como una manera de mostrar que tan potencialmente riesgoso pueden ser algunas practicas humanas </p>
+						        <p>N3:Una buena metáfora de los peligros de la irresponsabilidad humana</p>
+						        <p>N4:Un método para infundir temor en las personas al mostrarles una cuenta regresiva de una posible catástrofe</p>
+						        <p>N5:No encuentro utilidad alguna o alguna aspecto positivo en esta practica</p>
+						      </div>
+						      <div align="center">
+						      	<p>Analisis Respuestas</p>
+						      	<p>Observando las respuestas planteadas por mis compañeros se puede ver que estan de acuerdo en las implicaciones positivas de un sistema como es el caso de el Doomsday Clock
+						      	principlamente como un sistema de medida de los posibles riesgo que suponen algunas practicas humanas, teniendo en cuenta que todos los que respondieron la encuesta son ingenieros 
+						      	es interesante analizar la manera en como ellos ven este concepto simbolico, como ingenieros nosotros somo unos de los principales participantes en el desarrollo humano en general y por esto mismo no podemos actuar de forma inconsiente y siempre debemos  tener claro que nuestros actos y como usemos nuestros conocimientos pueden tener repercusiones para todo el mundo.</p>
+						      	<p> como ingenieros nuestra obligacion es actuar de la manera mas racional posible siempre en beneficio de la humanidad y siendo concientes de hasta que punto lo que hagamos puede ser peligros, por esto mismo un concepto como el Doomsday Clock es importante a nivel simbolico para nosotros pues aunque no este limitado unicamente al apartado de la ingenieria o el desarrollo es un recordatoria constante de que una mala eleccion o un error puede general concecuencias gigantescas, el doomsday clock es una manera de ver lo potencialmente peligrosos que somos como especie y como debemos usar nuestras habilidades responsablemente.  </p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div> 
+
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col" align="left">
+			    <div class="card" style="width: 37.5rem">
+			      <img src="images/nuke.jpg" class="card-img-top" style="height: 565px">
+			      <div class="card-body">
+			        <h5 class="card-title">Pregunta #2</h5>
+			        <p class="card-text">¿Cuales cree usted que son las principales causas actuales que ocasionaron que el reloj del fin del mundo moviera sus manesillas?</p>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#P2">
+						  Ver Analisis
+						</button> 
+
+						<div class="modal fade" id="P2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="P2Label" aria-hidden="true">
+						  <div class="modal-dialog" style="max-width: 900px">
+						    <div class="modal-content" style="width: 900px">
+						      <div class="modal-header" style="width: 900px">
+						        <h1 class="modal-title fs-5" id="P2Label">¿Cuales cree usted que son las principales causas actuales que ocasionaron que el reloj del fin del mundo moviera sus manesillas?</h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body" style="width: 900px">
+						        <p class="lead"> <canvas class="bg-white" id="Mi2Gr"> </canvas> </p>
+						        <p>N1:Cambio Climático</p>
+						        <p>N2:Recesión económica mundial </p>
+						        <p>N3:Carrera armamentística</p>
+						        <p>N4:Pandemia Covid-19</p>
+						        <p>N5:Guerra Ruso-Ucraniana</p>
+						      </div>
+						      <div align="center">
+						      	<p>Analisis Respuestas</p>
+						      	<p>En el caso de esta respuesta es algo muy subjetivo puesto que estamos hablando de muchas problematicas globales que han afectado el mundo en un periodo de tiempo relativamente cercano (o almenos las consecuencias de estas problematicas) no cabe duda de que todas estas situaciones ha puesto a prueba al ser humano y sus capacidades para adaptarse pero lo que mas me gustaria extraer de esta preunta es que todas estas problematicas fueron ocasionadas directa o indirectamente por el ser humano algunas de estas de manera no intensional como efectos secundarios de otras practicas que incluso podrian ser vistas como positivas o necesarias, pero otras son ocasionadas simplemente por el egoismo humano me gustaria destacar dos de ellas el cambio climatico y la carrera armamentistica porque son las mas ligadas al proceso de desarrollo humano</p>
+						      	<p>El cambio climatico a sido un efecto de decadas del consumo excesivo de recursos por parte de el ser humano no tocare el tema de como se usan estos recursos pero a lo que quiero llegar es que a medida de que la humanidad evoluciona como especie se vuelve mas codiciosa ya no es la necesidad de supervivencia sino el deseo por mas, esto motiva a que los procesos de desarrollo se desvien a buscar maneras de satisfacer estas necesidades en lugar de buscar una solucion a los problemas reales de el mundo e incluso el buscar una manera de dejar atras esta actitud desmedida, ahora hablando de la carrera armamentistica me gustaria destacar que esta problematica que persiste hasta hoy e incluso fue la razon porque nacio el Doomsday Clock es la prueba feaciente de la actitud autodestructiva humana sea por poder, control o "seguridad" los humanos parecemos estar empeñados en construir maaquinas capaces de dañar a otros de la manera mas rapida y eficiente creo que estos aspectos son uno de los que mas necesitamos tener en cuenta como ingenieros tanto en su concepcion como en la psicologia detras de ellos para poder detener el avance hacia la media noche de el reloj de el juicio final</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div> 
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col" align="right">
+			    <div class="card" style="width: 35.5rem">
+			      <img src="images/ingenieria.jpg" class="card-img-top" style="height: 500px" >
+			      <div class="card-body">
+			        <h5 class="card-title" align="left">Pregunta #3;</h5>
+			        <p class="card-text" align="left">¿Poniéndose en el papel de un ingeniero usted cree que podría detener o reducir el movimiento de el Doomsday Clock?</p>
+			        <div align="left">
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#P3">
+						  Ver Analisis
+						</button> 
+
+						<div class="modal fade" id="P3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="P3Label" aria-hidden="true">
+						  <div class="modal-dialog" style="max-width: 900px">
+						    <div class="modal-content" style="width: 900px">
+						      <div class="modal-header" style="width: 900px">
+						        <h1 class="modal-title fs-5" id="P3Label">¿Poniéndose en el papel de un ingeniero usted cree que podría detener o reducir el movimiento de el Doomsday Clock?</h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body" style="width: 900px">
+						        <p class="lead"> <canvas class="bg-white" id="Mi3Gr"> </canvas> </p>
+						      </div>
+						      <div align="center">
+						      	<p>Analisis Respuestas</p>
+						      	<p>El objetivo de esta pregunta era conocer la opinion general de los que respondieron el formulario acerca de su pensamiento en relacion con el movimiento de el doomsday clock mas especiicamente en si ellos como ingenieros se consideran en la capacidad de detener o almenos reducir sus movimientos (en otras palabras la pregunta tenia como objetivo el saber si ellos creian que como ingenieros tenian la capacidad de solucionar las problematicas que ocasiona el movimiento de el reloj de el juicio final) las respuestas en su mayoria positivas y algunas que se encuentrar en un punto intermedio nos permite observar como ellos tienen presente el hecho de que al ser ingenir@s tienen los medios y la responsabilidad de almenos intentarlo despues de todo ese es justamente uno de las principales caracteristicas dierenciadoras de esta carrera y aque se puede entender que es muy dificil solucionar problemas tan grandes y con tanta complejidad a corto plazo el trabajo conjunto y eficiente que caracterisa a los ingeniros permite hacerse a la idea de que se puede lograr almenos el realentizar los problemas ocasionados por estas situaciones tan diversas </p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div> 
+
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col" align="left">
+			    <div class="card" style="width: 37.5rem">
+			      <img src="images/ingenieros.jpg" class="card-img-top">
+			      <div class="card-body">
+			        <h5 class="card-title">Pregunta #4</h5>
+			        <p class="card-text">¿Cual cree que debería ser la postura de los ingeniero con respecto al Doosday Cloock y lo que representa?</p>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#P4">
+						  Ver Analisis
+						</button> 
+
+						<div class="modal fade" id="P4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="P4Label" aria-hidden="true">
+						  <div class="modal-dialog" style="max-width: 900px">
+						    <div class="modal-content" style="width: 900px">
+						      <div class="modal-header" style="width: 900px">
+						        <h1 class="modal-title fs-5" id="P4Label">¿Cual cree que debería ser la postura de los ingeniero con respecto al Doosday Cloock y lo que representa?</h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body" style="width: 900px">
+						        <p class="lead"> <canvas class="bg-white" id="M41Gr"> </canvas> </p>
+						        <p>N1:Es nuestra responsabilidad el apoyar con nuestros conocimientos para evitar posibles catástrofes presentes o futuras</p>
+						        <p>N2:Debemos ser mas consientes de como utilizamos nuestro conocimiento  y las consecuencias que trae </p>
+						        <p>N3:Se debe brindar apoyo directo a las personas para mitigar los posibles efectos de estas catastrofes</p>
+						        <p>N4:Aprovechas estas situaciones para realizar nuevos avances tecnológicos </p>
+						        <p>N5:No considero que tengamos alguna responsabilidad en esta aspecto solo por ser ingenieros</p>
+						      </div>
+						      <div align="center">
+						      	<p>Analisis Respuestas</p>
+						      	<p>En esta pregunta lo principal que debemos analizar es que hay dos posturas de accion como ingenieros en relacion con las problematicas que son representadas en el doomsday cloock una directa y otra indirecta la directa siendo sobre actuar en relacion a las problematicas mundiales en fin de hallar una solucion a estas o apoyando a los aectos con el fin de minimizar las consecuencias generadas por estas y la segunda  sobre actuar con mas responsabilidad en nuestras actividades como inegenieros para evitar la aparicion de nuevas problematicas al observar estas respuestas debo decir que si lo que queremos es lograr no solo evitar o mitigar estas problematicas mundiales sino tambien apoyar al desarrollo humano y actuar en bien de la humanidad debemos convertir estas dos filosfias en un estandar para el desarrollo de nuestra ingenieria. </p>
+						      	<p>Puesto que como ingenieros nuestro trabajo es velar por las personas y usar nuestro conocimiento en su beneficio por esto mismo debemos concentrar gran parte de nuestros esfuezos en atacar los problemas mundiales y ayudar a las victimas pero si nos negamos a tomar riesgos en pro de la evolucion y la mejora humana nos quedaremos estancados como ingenieros, cientificos, diseñadores o inventores el riesgo es algo con lo que debemos lidear y aceptar pues nuevos probleas surgen y se necesesitan nuevas soluciones por esto lo que se debe hacer es pensar en el bien comun y ayudar a las personas pero sin dejar atras la experimentacion y la busqueda de la mejora incluso si eso supone un riesgo pero siempre movido por el bien comuny sobre todo lelvado con el mayor cuidado y responsabilidad posible para evitar nuevos contratiempos</p>
+						      
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div> 
+			      </div>
+			    </div>
+			  </div>
+			</div>
+  </div>
+  <br>
+  <br>
+  <div align="center">
+  	<div class="card" style="width: 74rem;">
+  <img src="images/reloj_3.png" class="card-img-top">
+  <div class="card-body">
+  	<h2>En que puede evitar el desarrollo de mi ingenieria evitar la celebracion de el reloj</h2>
+    <p class="card-text" align="left">Considero que la manera de evitar la celebracion de el reloj a partir de el desarrollo de mi ingenieria, Es mediante la moralidad y responsabilidad que debo mantener en cada accion que realize como ingenieo, alo que me refiero con esto es que como ingeniero una (por no decir la princpal) de las caracteristicas que estan implicitas en este campo de estudio, es la solucion de problemas y desarrollo en pro de mejorar la calidad y la forma de vida de el ser humano, y como hemos podido anallizar con el concepto de el doomsday clock y con las preguntas que se han analizado anteriormente, el desarrollo humano puede es algo tanto bueno como completamente catastrofico dividido estos extremos solo por la delgada linea de la moralidad de aquellos que lo realizen y que tan presentes tuvieron las concecuencias de sus propias ideas, y creo que justamente este es el apartado mas importante a desarrollar como ingeniero con el objetivo de deterner el avance de el reloj de el juicio final y todo lo que representa, El sactuar de forma responsable con las cosas que creemos o diseñemos siendo concientes de los posibles riesgos que suponen.</p>
+    <p align="left">Lo nuevos inventos y sistemas son algo que no podemos evitar puesto que nacen como solucion a nuevos problemas y tampoco podemos evitar los riesgos que suponene pero lo que si podemos hacer es que estos sean riesgos controlados minimizar en lo mas posibles los peligros que pueden suponer para la vida humana y usarlos de la manera mas sabia en beneficio de esta, como ingenieros nosotros somo uno de los principales responsabes y motores de la evolucion humana y por esto mismo tampoco podemos olvidar nuestra responsabilidad en gran parte de las catastrofes que han azotado a nuestra especia a lo largo de los años, opino que para lograr evitar las repercuciones negativas de esto la respuesta estan simple como compleja rezponsabilidad y control, y justamente son estos los aspectos que debo desarrollar en mi ingenieria para contribuir a evitar laas problematicas que representa el doomsday clock,usar mi conocimiento para solucionar los problemas en vez de empezar nuevos.</p>
+  </div>
+</div>
+  </div>
+<br>
+<br>
+
+	<script src="js/bootstrap.bundle.js"></script>
+	<script type="text/javascript">
+    var ctx=document.getElementById("Mi1Gr").getContext("2d");
+    
+    var MiPGr=new Chart(ctx,
+    {
+        type:"bar",
+        data:
+        {
+          labels:['N1','N2','N3', 'N4','N5'],
+          datasets:
+          [{              	
+          		label:'Total Respuestas',
+                  data:[2,4,0,0,0],
+                  backgroundColor:
+                  [
+					'rgba(255, 99, 132, 0.2)',
+      				'rgba(255, 159, 64, 0.2)',
+      				'rgba(255, 205, 86, 0.2)',
+      				'rgba(75, 192, 192, 0.2)',
+      				'rgba(54, 162, 235, 0.2)'
+                      
+                  ],
+                  borderColor: 
+                  [
+					'rgb(255, 99, 132)',
+      				'rgb(255, 159, 64)',
+      				'rgb(255, 205, 86)',
+      				'rgb(75, 192, 192)',
+      				'rgb(54, 162, 235)',
+                    
+                  ],
+                  borderWidth: 1
+          }]
+        },
+        options:
+        {
+          scales:
+          {
+            yAxes:
+            [{
+              ticks:
+              {
+                beginAtZero:true
+              }
+            }]
+        }}
+    });
+    var ctx=document.getElementById("Mi2Gr").getContext("2d");
+    
+    var MiPGr=new Chart(ctx,
+    {
+        type:"bar",
+        data:
+        {
+          labels:['N1','N2','N3', 'N4','N5'],
+          datasets:
+          [{              	
+          		label:'Total Respuestas',
+                  data:[4,3,2,2,1],
+                  backgroundColor:
+                  [
+					'rgba(255, 99, 132, 0.2)',
+      				'rgba(255, 159, 64, 0.2)',
+      				'rgba(255, 205, 86, 0.2)',
+      				'rgba(75, 192, 192, 0.2)',
+      				'rgba(54, 162, 235, 0.2)'
+                      
+                  ],
+                  borderColor: 
+                  [
+					'rgb(255, 99, 132)',
+      				'rgb(255, 159, 64)',
+      				'rgb(255, 205, 86)',
+      				'rgb(75, 192, 192)',
+      				'rgb(54, 162, 235)',
+                    
+                  ],
+                  borderWidth: 1
+          }]
+        },
+        options:
+        {
+          scales:
+          {
+            yAxes:
+            [{
+              ticks:
+              {
+                beginAtZero:true
+              }
+            }]
+        }}
+    });
+   var ctx=document.getElementById("pie").getContext("2d");
+   var MiPGr=new Chart(ctx,
+    {
+        type:"pie",
+        data:
+        {
+          labels: ['18','19','21'],
+          datasets:
+          [{              	
+          		label: 'My First Dataset',
+                  data: [1, 4, 1],
+                  backgroundColor:
+                  [
+				      'rgb(255, 99, 132)',
+				      'rgb(54, 162, 235)',
+				      'rgb(255, 205, 86)'
+                      
+                  ],
+                  hoverOffset: 4
+          }]
+        },
+        options:
+        {
+          scales:
+          {
+            yAxes:
+            [{
+              ticks:
+              {
+                beginAtZero:true
+              }
+            }]
+        }}
+    });
+    var ctx=document.getElementById("Mi3Gr").getContext("2d");
+    
+    var MiSGr=new Chart(ctx,
+    {
+        type:"polarArea",
+        data:
+        {
+          labels:['SI','NO ESTOY SEGURO','NO'],
+          datasets:
+          [{
+              label:'Opinion',
+              data:[4,2,0],
+              backgroundColor:
+              [
+					'rgba(255, 99, 132, 0.2)',
+      				'rgba(255, 159, 64, 0.2)',
+      				'rgba(255, 205, 86, 0.2)',
+              ],
+              borderColor: 
+              [
+                'rgb(255,0,0)',
+                'rgb(0,255,0)',
+                'rgb(0,0,255)',
+              ],
+              borderWidth: 2
+          }]
+        },
+    });
+    var ctx=document.getElementById("M41Gr").getContext("2d");
+    
+    var MiPGr=new Chart(ctx,
+    {
+        type:"bar",
+        data:
+        {
+          labels:['N1','N2','N3', 'N4','N5'],
+          datasets:
+          [{              	
+          		label:'Total Respuestas',
+                  data:[4,1,1,0,0],
+                  backgroundColor:
+                  [
+					'rgba(255, 99, 132, 0.2)',
+      				'rgba(255, 159, 64, 0.2)',
+      				'rgba(255, 205, 86, 0.2)',
+      				'rgba(75, 192, 192, 0.2)',
+      				'rgba(54, 162, 235, 0.2)'
+                      
+                  ],
+                  borderColor: 
+                  [
+					'rgb(255, 99, 132)',
+      				'rgb(255, 159, 64)',
+      				'rgb(255, 205, 86)',
+      				'rgb(75, 192, 192)',
+      				'rgb(54, 162, 235)',
+                    
+                  ],
+                  borderWidth: 1
+          }]
+        },
+        options:
+        {
+          scales:
+          {
+            yAxes:
+            [{
+              ticks:
+              {
+                beginAtZero:true
+              }
+            }]
+        }}
+    });
+	</script>
+</body>
+</html>
